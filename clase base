@@ -1,0 +1,19 @@
+using System;
+
+namespace pro_POO
+{
+    public abstract class Figura //clase base abstracta esto significa que tiene metodos que se tienen que tomar por sus clase hijas
+                                   //y no pueden ser instanciadas
+    {
+        public abstract double CalcularArea();
+
+        public abstract double CalcularPerimetro();
+
+        
+        
+
+       
+        
+    }
+   
+}
